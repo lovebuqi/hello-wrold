@@ -6,11 +6,12 @@ import java.io.File;
 
 public class day20_DiGuiTest2 {
 	public static void main(String[] args) {
-		File file = new File("D:\\FileDB1");
+		//add file
+		File file = new File("D:\\FileDB1");//Don't use a C disk
 		
 		DiGuiDel(file);
 	}
-
+	//delete Method
 	public static void DiGuiDel(File file) {
 		File[] filearray = file.listFiles();
 		if (filearray != null) {
