@@ -1,11 +1,14 @@
 # hello-wrold
 beginner
+
 作为一个初学者 ，英文蹩脚很痛苦啊。
 
 import java.io.File;
 
 public class day20_DiGuiTest2 {
+
 	public static void main(String[] args) {
+	
 		//add file
 		File file = new File("D:\\FileDB1");//Don't use a C disk
 		
